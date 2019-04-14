@@ -176,8 +176,6 @@ function run() {
     else {
         $("#result-image").html("<img src='./assets/images/giphy.gif'/>");              // score below 4 gets this image
     }
-
-    themeSong.play();
   };
 
 // This function checks to see if the choice clicked is correct/incorrect.
@@ -227,6 +225,7 @@ $(document).ready(function(){
         $(".container").css("display", "block");                                                // display the trivia box
         $("#start-game").empty();                       
         renderTrivia();
+        themeSong.play();
     });
 
     // The click function that will reset the variables and the game.
