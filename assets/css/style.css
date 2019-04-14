@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url(../images/that-70s-show.jpg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: blanchedalmond;
+      opacity: .8;
+      width: 70%;
+      height: 80%;
+      position: relative;
+      top: 11%;
+      display:none;
+  }
+
+  /* .bordertest {
+   border: 1px solid black;
+} */
+
+#title {
+    font-size: 70px;
+    color: darkslateblue;
+}
+
+#clock {
+    font-size: 30px;
+    color: steelblue;
+}
+
+#question {
+    font-size: 30px;
+    color: skyblue;
+}
+
+#choice-A, #choice-B, #choice-C, #choice-D, #correct-answser, #scores {
+    font-size: 30px;
+    color:crimson;
+}
+
+#choice-A, #choice-B, #choice-C, #choice-D {
+    margin-top: 20px;
+}
+
+#choice-A:hover, #choice-B:hover, #choice-C:hover, #choice-D:hover {
+    border: 1px solid crimson;
+    cursor: pointer;
+ 
+}
+
+#start-over {
+    color: darkorange;
+    font-size: 27px;
+}
+
+#start-over:hover {
+    cursor: pointer;
+}
+
+#start-game {
+    font-family: serif;
+    font-size: 45px;
+    color: goldenrod;
+}
+
+#start-game:hover {
+    cursor: pointer;
+}
