@@ -22,4 +22,5 @@ On the final screen, the number of correct answers, incorrect answers, and an op
 ## Demo
 [Click here to Demo!](https://bodnguye.github.io/TriviaGame/)
 
+## Preview
 ![Results](/assets/images/trivia.png)
